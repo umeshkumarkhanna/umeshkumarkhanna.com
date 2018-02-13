@@ -75,7 +75,7 @@
 
 .grid figure h2 {
 	word-spacing: -0.15em;
-	
+
 	font-weight: 300;
 }
 
@@ -116,10 +116,10 @@ figure.effect-bubba:hover img {
 figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
 	position: absolute;
-	top: 30px;
-	right: 30px;
-	bottom: 30px;
-	left: 30px;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
 	content: '';
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -174,7 +174,7 @@ figure.effect-bubba:hover p {
 @media screen and (max-width: 69.5em) {
 	.grid figure {
 		width: 50%;
-	}	
+	}
 
 	.grid figure figcaption {
 		font-size: 90%;
